@@ -1,0 +1,211 @@
+{
+  "header": {
+    "notification": {
+      "title": "Pemberitahuan",
+      "onlyShowUnread": "Hanya tampilkan yang belum dibaca",
+      "empty": {
+        "title": "Tidak ada pemberitahuan"
+      },
+      "segment": {
+        "today": "Hari ini",
+        "older": "Lebih tua"
+      },
+      "markAll": "Tandai semua telah dibaca",
+      "markRead": "Tandai sudah dibaca",
+      "markUnread": "Tandai sebagai belum dibaca"
+    },
+    "profile": {
+      "edit": "Ubah Profil",
+      "view": "Lihat Profil",
+      "setting": "Pengaturan Akun",
+      "changePassword": "Ubah Kata Sandi",
+      "signOut": "Keluar"
+    },
+    "search": {
+      "placeholder": "Ketik dan tekan enter untuk mencari...",
+      "recent": "Pencarian Terkini",
+      "suggestion": "Saran Pencarian"
+    }
+  },
+  "dates": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "lastDays": "Last {{days}} Days",
+    "thisMonth": "This Month",
+    "thisYear": "This Year"
+  },
+  "common": {
+    "text": {
+      "editItem": "Detail {{item}}",
+      "addNewItem": "Tambah {{item}} Baru",
+      "itemInformation": "Informasi {{item}}",
+      "input": "Masukkan {{item}}",
+      "image": "Gambar",
+      "product": "Produk",
+      "stock": "Stok",
+      "sold": "Terjual"
+    },
+    "divider": {
+      "or": "atau"
+    },
+    "button": {
+      "signIn": "Masuk",
+      "signInWithGoogle": "Masuk Dengan Google",
+      "signInWithFacebook": "Masuk Dengan Facebook",
+      "register": "Daftar",
+      "resendVerification": "Kirim Ulang Verifikasi",
+      "contactSupport": "Hubungi Dukungan",
+      "resetPassword": "Reset Password",
+      "addNew": "Tambah",
+      "export": "Export",
+      "import": "Import",
+      "generate": "Generate",
+      "save": "Simpan",
+      "cancel": "Batal",
+      "continue": "Lanjut",
+      "delete": "Hapus",
+      "download": "Download",
+      "confirm": "Konfirmasi",
+      "back": "Kembali",
+      "canceled": "Batalkan",
+      "reject": "Tolak",
+      "accept": "Terima",
+      "acceptCancel": "Terima Pembatalan",
+      "approve": "Terima",
+      "send": "Kirim",
+      "ok": "Ok"
+    },
+    "form": {
+      "email": {
+        "label": "Alamat Email",
+        "placeholder": "yourname@yourmail.com"
+      },
+      "password": {
+        "label": "Kata Sandi",
+        "placeholder": "Masukkan kata sandi"
+      },
+      "passwordConfirmation": {
+        "label": "Konfirmasi Kata Sandi",
+        "placeholder": "Masukkan konfirmasi kata sandi"
+      },
+      "name": {
+        "label": "Nama",
+        "placeholder": "Masukkan nama"
+      },
+      "phoneNumber": {
+        "label": "Nomor Handphone",
+        "placeholder": "Masukkan nomor handphone"
+      }
+    },
+    "filter": {
+      "search": {
+        "label": "Search",
+        "placeholder": "Search"
+      }
+    }
+  },
+
+  "auth": {
+    "login":{
+      "metaTitle": "Masuk",
+      "title": "Masuk",
+      "subtitle": "Selamat datang kembali! Tolong masuk untuk melanjutkan.",
+      "dontHaveAccount": "Tidak punya akun?",
+      "createAnAccount": "Buat akun",
+      "forgotPassword": "Lupa Password?"
+    },
+    "register": {
+      "metaTitle": "Daftar",
+      "title": "Buat Akun Baru",
+      "subtitle": "Gratis untuk mendaftar dan hanya membutuhkan satu menit.",
+      "alreadyHaveAccount": "Sudah punya akun?",
+      "signIn": "Masuk disini",
+      "createAccountBellow": "Buat akun di bawah",
+      "agreement": "Dengan mengklik <strong>$t(auth.register.createAccountBellow)</strong>, Anda menyetujui persyaratan layanan dan pernyataan privasi kami."
+    },
+    "verify": {
+      "metaTitle": "Verifikasi alamat email Anda",
+      "title": "Verifikasi alamat email Anda",
+      "subtitle": "Silakan periksa email Anda dan klik tombol atau tautan verifikasi untuk memverifikasi akun Anda."
+    },
+    "forgotPassword": {
+      "metaTitle": "Lupa Kata Sandi",
+      "title": "Lupa kata Sandi Anda",
+      "subtitle": "Masukkan nama pengguna atau alamat email Anda dan kami akan mengirimkan tautan untuk mengatur ulang kata sandi Anda.",
+      "backText": "Kembali ke Halaman Login"
+    },
+    "forgotPasswordSuccess": {
+      "metaTitle": "Permintaan Lupa Kata Sandi Anda Berhasil",
+      "title": "Berhasil",
+      "subtitle": "Atur ulang kata sandi sudah dikirim ke email Anda.",
+      "backText": "Kembali ke Halaman Login"
+    },
+    "resetPassword": {
+      "metaTitle": "Reset Kata Sandi Anda",
+      "title": "Buat Kata Sandi",
+      "subtitle": "Masukkan kata sandi baru Anda."
+    },
+    "footer": {
+      "links": {
+        "license": "Lisensi",
+        "log": "Ubah Log",
+        "help": "Mendapatkan Bantuan"
+      }
+    }
+  },
+  "error": {
+    "404": {
+      "metaTitle": "404 Page Not Found",
+      "title": "404 Page Not Found",
+      "subtitle": "Oopps. The page you were looking for doesn't exist.",
+      "note": "You may have mistyped the address or the page may have moved. Try searching below."
+    }
+  },
+  "notification": {
+    "error": {
+      "default": "Terjadi kesalahan pada server, silahkan coba kembali"
+    },
+    "success": {
+      "resetPassword": "Kata sandi Anda berhasil diubah, silahkan masuk menggunakan kata sandi baru.",
+      "createItem": "{{item}} baru berhasil dibuat",
+      "updateItem": "{{item}} berhasil diubah",
+      "deleteItem": "{{item}} berhasil dihapus",
+      "approveItem": "{{item}} berhasil diterima",
+      "rejectItem": "{{item}} berhasil ditolak",
+      "importItem": "{{item}} baru berhasil diimport"
+    }
+  },
+  "modal": {
+    "confirmation": {
+      "headerTitle": "Konfirmasi",
+      "headerTitleText": "Konfirmasi {{text}}",
+      "title": "Apakah Anda yakin ingin melanjutkan tindakan ini?",
+      "subtitle": "Anda tidak dapat melihat item ini jika melanjutkan",
+      "subtitleGeneral": "Anda tidak dapat mengulang data seperti sebelumnya"
+    },
+    "import": {
+      "headerTitle": "Import",
+      "downloadTemplate": "Unduh Template",
+      "uploadText": "Klik atau seret file ke area ini untuk mengunggah",
+      "errorLimit": "File yang di upload melebihi maximum size"
+    }
+  },
+  "select": {
+    "placeholder": "Pilih {{item}}"
+  },
+  "profile": {
+    "title": "Profil"
+  },
+  "changePassword": {
+    "title": "Password"
+  },
+  "validation": {
+    "required": "{{item}} harus diisi",
+    "type": {
+      "email": "{{item}} tidak sesuai",
+      "min": "{{item}} minimal harus {{min}} karakter",
+      "max": "{{item}} maximal {{max}} karakter",
+      "match": "{{item}} yang Anda masukkan tidak cocok"
+    }
+  }
+}

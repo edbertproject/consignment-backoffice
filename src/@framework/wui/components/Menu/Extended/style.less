@@ -1,0 +1,59 @@
+.wui-extended-menu {
+  background: white;
+  list-style: none;
+  padding: 15px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+  min-height: calc(100vh - 60px);
+  border-right: 1px solid #d9d9d9;
+  position: fixed;
+
+  .item {
+
+
+    .link {
+      display: flex;
+      height: 50px;
+      align-items: center;
+      justify-content: center;
+
+      &.active {
+
+        .icon {
+          color: #023e7d;
+          transform: scale(1.1);
+        }
+      }
+
+      .icon {
+        color: black;
+        font-size: 20px;
+        transform: scale(1);
+        transition: all .5s ease;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    min-height: unset;
+    width: 100%;
+    border-left: none;
+    border-bottom: 1px solid #d9d9d9;
+    flex-direction: row;
+    padding: 10px 15px;
+    gap: 10px;
+    position: sticky;
+    top: 50px;
+    z-index: 99;
+    overflow: scroll;
+
+    .item {
+      .link {
+        height: 30px;
+        width: 30px;
+      }
+    }
+  }
+}

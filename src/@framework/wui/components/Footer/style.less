@@ -1,0 +1,41 @@
+.main-footer {
+  height: 40px;
+  padding: 10px 15px;
+  border-top: 1px solid rgba(72, 94, 144, 0.16);
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background: white;
+
+  .copyright {
+    display: flex;
+    align-items: center;
+
+    .icon {
+      width: 14px;
+      height: 14px;
+      margin: 0px 3px;
+    }
+  }
+
+  .links {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    grid-gap: 15px;
+    text-transform: uppercase;
+  }
+
+  @media only screen and (max-width: 992px) {
+    height: auto;
+    flex-direction: column-reverse;
+
+    .copyright {
+      margin-top: 15px;
+    }
+  }
+}

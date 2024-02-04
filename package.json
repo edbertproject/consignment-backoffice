@@ -1,0 +1,107 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "resolutions": {
+    "@types/react": "^17.0.0"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "@craco/craco": "^6.1.2",
+    "@flavioespinoza/edge-css": "^0.1.1",
+    "@hookform/resolvers": "^2.8.8",
+    "@hookstate/core": "^3.0.8",
+    "@reduxjs/toolkit": "^1.6.0",
+    "@sentry/react": "^6.17.2",
+    "@sentry/tracing": "^6.17.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@tinymce/tinymce-react": "^3.12.6",
+    "@types/google-map-react": "^2.1.5",
+    "@types/jest": "^26.0.15",
+    "@types/lodash": "^4.14.171",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-redux": "^7.1.18",
+    "@types/react-select": "^4.0.17",
+    "antd": "^4.16.6",
+    "antd-img-crop": "^4.1.0",
+    "axios": "^0.25.0",
+    "chart.js": "^3.4.1",
+    "clsx": "^1.1.1",
+    "craco-less": "^1.18.0",
+    "env-cmd": "^10.1.0",
+    "google-map-react": "^2.1.10",
+    "history": "^5.0.0",
+    "i18next": "^20.3.2",
+    "i18next-browser-languagedetector": "^6.1.2",
+    "js-file-download": "^0.4.12",
+    "lodash": "^4.17.21",
+    "lodash-contrib": "^4.1200.1",
+    "moment": "^2.29.1",
+    "qs": "^6.10.1",
+    "react": "^17.0.2",
+    "react-chartjs-2": "3.0.4",
+    "react-css-theme-switcher": "^0.3.0",
+    "react-device-detect": "^1.17.0",
+    "react-dom": "^17.0.2",
+    "react-helmet-async": "^1.0.9",
+    "react-hook-form": "^7.26.1",
+    "react-i18next": "^11.11.1",
+    "react-icons": "^4.2.0",
+    "react-moment": "^1.1.1",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "6.0.0-beta.0",
+    "react-scripts": "4.0.3",
+    "react-select": "^5.2.2",
+    "react-select-async-paginate": "^0.6.1",
+    "react-spinners": "^0.11.0",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "env-cmd -f .env craco  start -p 3003",
+    "start:staging": "env-cmd -f .env.staging craco  start",
+    "start:production": "env-cmd -f .env.production craco  start",
+    "build": "env-cmd -f .env craco  build",
+    "build:staging": "yarn prebuild && env-cmd -f .env.staging craco  build",
+    "build:production": "yarn prebuild && env-cmd -f .env.production craco build",
+    "test": "craco  test",
+    "eject": "react-scripts eject",
+    "prebuild": "npx gulp less"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "9.0.0",
+    "file-loader": "^6.2.0",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-debug": "^4.0.0",
+    "gulp-less": "^5.0.0",
+    "gulp-postcss": "8.0.0",
+    "less-plugin-npm-import": "^2.1.0",
+    "postcss": "^8.3.5",
+    "prettier": "2.8.7",
+    "react-error-overlay": "6.0.9"
+  }
+}

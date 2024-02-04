@@ -1,0 +1,130 @@
+{
+  "header": {
+    "notification": {
+      "title": "Notifications",
+      "onlyShowUnread": "Only show unread",
+      "empty": {
+        "title": "You've read all your notifications from the last 30 days."
+      },
+      "segment": {
+        "today": "Today",
+        "older": "Older"
+      },
+      "markAll": "Mark all as read",
+      "markRead": "Mark as read",
+      "markUnread": "Mark as unread"
+    },
+    "profile": {
+      "edit": "Edit Profile",
+      "view": "View Profile",
+      "setting": "Account Settings",
+      "signOut": "Sign Out"
+    },
+    "search": {
+      "placeholder": "Type and hit enter to search...",
+      "recent": "Recent Searches",
+      "suggestion": "Search Suggestions"
+    }
+  },
+  "dates": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "lastDays": "Last {{days}} Days",
+    "thisMonth": "This Month",
+    "thisYear": "This Year"
+  },
+  "common": {
+    "text": {
+      "addNewItem": "Add New {{item}}",
+      "itemInformation": "{{item}} Information"
+    },
+    "divider": {
+      "or": "or"
+    },
+    "button": {
+      "signIn": "Sign In",
+      "signInWithGoogle": "Sign In With Google",
+      "signInWithFacebook": "Sign In With Facebook",
+      "register": "Register",
+      "resendVerification": "Resend Verification",
+      "contactSupport": "Contact Support",
+      "resetPassword": "Reset Password",
+      "generate": "Generate",
+      "addNew": "Add New",
+      "export": "Export",
+      "import": "Import",
+      "save": "Save",
+      "approve": "Approve",
+      "reject": "Reject",
+      "cancel": "Cancel"
+    },
+    "form": {
+      "email": {
+        "label": "Email Address",
+        "placeholder": "yourname@yourmail.com"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Enter your password"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Enter your name"
+      },
+      "phoneNumber": {
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number"
+      }
+    },
+    "filter": {
+      "search": {
+        "label": "Search",
+        "placeholder": "Search"
+      }
+    }
+  },
+
+  "auth": {
+    "login":{
+      "metaTitle": "Login",
+      "title": "Sign In",
+      "subtitle": "Welcome back! Please signin to continue.",
+      "dontHaveAccount": "Don't have an account?",
+      "createAnAccount": "Create an Account"
+    },
+    "register": {
+      "metaTitle": "Register",
+      "title": "Create New Account",
+      "subtitle": "It's free to signup and only takes a minute.",
+      "alreadyHaveAccount": "Already have an account?",
+      "signIn": "Sign In",
+      "createAccountBellow": "Create an account below",
+      "agreement": "By clicking <strong>$t(auth.register.createAccountBellow)</strong>, you agree to our terms of service and privacy statement."
+    },
+    "verify": {
+      "metaTitle": "Verify your email address",
+      "title": "Verify your email address",
+      "subtitle": "Please check your email and click the verify button or link to verify your account."
+    },
+    "forgotPassword": {
+      "metaTitle": "Reset your password",
+      "title": "Reset your password",
+      "subtitle": "Enter your username or email address and we will send you a link to reset your password."
+    },
+    "footer": {
+      "links": {
+        "license": "License",
+        "log": "Change Log",
+        "help": "Get Help"
+      }
+    }
+  },
+  "error": {
+    "404": {
+      "metaTitle": "404 Page Not Found",
+      "title": "404 Page Not Found",
+      "subtitle": "Oopps. The page you were looking for doesn't exist.",
+      "note": "You may have mistyped the address or the page may have moved. Try searching below."
+    }
+  }
+}

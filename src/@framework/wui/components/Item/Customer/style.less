@@ -1,0 +1,44 @@
+.wui-item-customer {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  gap: 15px;
+
+  .icon-wrapper {
+    @media only screen and (max-width: 480px) {
+      display: none;
+    }
+  }
+
+
+  .info-wrapper {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+
+    .main-info {
+
+      .title {
+        font-size: 13px;
+        margin-bottom: 0px;
+      }
+
+      .subtitle {
+        font-size: 12px;
+        color: #8392a5;
+      }
+    }
+  }
+
+  .action-list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+
+    .action-item {
+      cursor: pointer;
+      color: rgb(131, 146, 165);
+    }
+  }
+}

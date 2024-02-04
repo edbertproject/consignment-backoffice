@@ -1,0 +1,164 @@
+
+
+.ant-form {
+  .ant-form-item-label {
+    padding-bottom: 0px;
+  }
+}
+
+.ant-form-item-explain {
+  font-size: 85%;
+}
+
+.ant-btn > span {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.ant-card-head {
+  @media only screen and (max-width: @screen-lg) {
+    padding: 0 15px;
+  }
+}
+
+.ant-card-head-title {
+  white-space: normal;
+  font-size: 14px;
+}
+
+.ant-card-body {
+  @media only screen and (max-width: @screen-lg) {
+    padding: 24px 15px;
+  }
+}
+
+.ant-card-head-wrapper {
+  @media only screen and (max-width: @screen-lg) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.ant-card-extra {
+  @media only screen and (max-width: @screen-lg) {
+    margin-left: unset;
+  }
+}
+
+.ant-table-content {
+  @media only screen and (max-width: @screen-md) {
+    overflow-y: scroll;
+  }
+}
+
+@media only screen and (max-width: @screen-sm) {
+  .ant-picker-panel-container .ant-picker-panels {
+    flex-wrap: wrap;
+  }
+
+  .ant-picker-range-wrapper {
+    min-width: unset !important;
+    max-width: 280px;
+  }
+}
+
+.custom-select {
+
+  .select__control {
+    border-color: @gray-5 !important;
+    border-radius: 2px;
+    box-shadow: none;
+    outline: none !important;
+
+    &:hover, &:focus {
+      border-color: @primary-color !important;
+    }
+  }
+
+  .select__menu {
+    z-index: 99;
+
+    .select__option--is-selected {
+      color: @primary-color;
+      background-color: rgba(2, 62, 125, 0.1);
+    }
+  }
+}
+
+.reactEasyCrop_Contain {
+  width: unset;
+}
+
+.multiple-dateselect{
+  position: relative;
+  .ant-picker{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+
+  .select-row{
+    display: flex;
+    .custom-select{
+      width: 100%;
+      .select__indicators{
+        opacity: 0;
+      }
+    }
+
+    .ant-btn{
+      height: 38px;
+      margin-left: -1px;
+    }
+  }
+}
+
+.editor-form-item{
+  .ant-form-item-control-input{
+    display: none;
+  }
+}
+
+.left-section{
+  .wui-breadcrumb{
+    margin-bottom: 5px!important;
+    text-transform: uppercase;
+    font-size: 12px!important;
+    ol{
+      padding-left: 0;
+    }
+  }
+}
+
+.ant-notification-topRight{
+  right: unset!important;
+  margin-left: 0;
+  margin-right: 0;
+  inset: 24px auto auto 50%;
+  transform: translateX(-50%);
+}
+
+.dealer-list-paginated{
+  .ant-list{
+    min-height: 815px;
+  }
+
+  .ant-list-pagination{
+    position: absolute;
+    right: -35px;
+    bottom: -45px;
+  }
+}
+
+@media only screen and (min-width: @screen-lg) {
+  .left-section{
+    .wui-breadcrumb{
+      position: fixed;
+      top: 18px;
+      z-index: 1000;
+
+    }
+  }
+}

@@ -1,0 +1,100 @@
+.wui-item-transaction {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  gap: 15px;
+
+  .icon-wrapper {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #8c8c8c;
+    border-radius: 100%;
+    color: white;
+    font-size: 18px;
+
+    .icon {
+      font-size: 18px;
+    }
+
+    &.success {
+      background: #95de64;
+    }
+
+    &.info {
+      background: #69c0ff;
+    }
+
+    &.process {
+      background: #b37feb;
+    }
+
+    &.warning {
+      background: #ffbc2b;
+    }
+
+    &.danger {
+      background: #ff7875;
+    }
+
+    @media only screen and (max-width: 480px) {
+      display: none;
+    }
+  }
+
+  .info-wrapper {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+
+    .main-info {
+
+      .title {
+        font-size: 13px;
+        margin-bottom: 0px;
+      }
+
+      .datetime {
+        font-size: 12px;
+        color: #8392a5;
+      }
+    }
+
+    .status-info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      font-size: 12px;
+
+      .value {
+        font-size: 13px;
+        font-weight: 500;
+      }
+
+      .status {
+
+        &.success {
+          color: #52c41a;
+        }
+
+        &.info {
+          color: rgb(0, 184, 212);
+        }
+
+        &.process {
+          color: rgb(91,71,251);
+        }
+
+        &.warning {
+          color: #ffbc2b;
+        }
+
+        &.danger {
+          color: #f5222d;
+        }
+      }
+    }
+  }
+}

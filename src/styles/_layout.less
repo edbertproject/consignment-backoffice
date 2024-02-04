@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap');
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.make-container(@minWidth, @breakpoint) {
+  @media (min-width: @minWidth) {
+    .container {
+      max-width: @breakpoint;
+    }
+  }
+}
+
+.make-container(@screen-xs-min, @screen-xs);
+.make-container(@screen-sm-min, @screen-sm);
+.make-container(@screen-md-min, @screen-md);
+.make-container(@screen-lg-min, @screen-lg);
+.make-container(@screen-xl-min, @screen-xl);
+
+img {
+  width: 100%;
+}
+
+
+#auth-layout {
+  .container-wrapper {
+    padding: 30px;
+    padding-top: 90px;
+    min-height: calc(100vh - 40px);
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    &.reverse {
+      flex-direction: row-reverse;
+
+      .illustration-wrapper {
+        text-align: right;
+      }
+    }
+
+    &.for-register {
+      .illustration-wrapper {
+        flex: 8;
+      }
+
+      .form-wrapper {
+        flex: 6;
+      }
+    }
+
+    .illustration-wrapper {
+      flex: 2;
+
+      .illustration-image {
+        width: 75%;
+      }
+    }
+  }
+
+  .login-wrapper, .forgot-password-success-wrapper {
+    max-width: 480px;
+    margin: auto;
+  }
+
+  .form-wrapper {
+    flex: 1;
+
+    .form-logo {
+      text-align: center;
+      margin-bottom: 30px;
+
+      .logo {
+        width: 200px;
+      }
+    }
+
+    .form-image{
+      text-align: center;
+      margin-bottom: 30px;
+
+      img{
+        width: 100%;
+        height: 238px;
+        object-fit: contain;
+        object-position: center;
+      }
+    }
+
+    .form-header {
+      margin-bottom: 30px;
+    }
+
+    .title {
+      margin-bottom: 5px;
+    }
+
+    .note {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  .verify-wrapper {
+    width: 100%;
+
+    .verify-main-wrapper {
+      max-width: 550px;
+      margin: auto;
+      text-align: center;
+
+      .illustration {
+        width: 250px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  .forgot-password-wrapper {
+    width: 100%;
+
+    .forgot-password-main-wrapper {
+      max-width: 450px;
+      margin: auto;
+      text-align: center;
+
+      .illustration {
+        width: 70%;
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  .forgot-password-success-wrapper{
+    .form-header{
+      text-align: center;
+    }
+  }
+
+  .error-wrapper {
+    width: 100%;
+
+    .error-main-wrapper {
+      max-width: 550px;
+      margin: auto;
+      text-align: center;
+
+      .illustration {
+        width: 70%;
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  .back-text {
+    position: absolute;
+    top: 30px;
+    color: black;
+    display: flex;
+    align-items: center;
+
+    .icon {
+      margin-right: 10px;
+    }
+  }
+
+  .default-small-wrapper {
+    width: 100%;
+
+    .inner-section {
+      max-width: 450px;
+      margin: auto;
+    }
+  }
+
+  @media only screen and (max-width: @screen-lg) {
+    .main-wrapper {
+      flex-direction: column;
+
+      .illustration-wrapper {
+        display: none;
+      }
+
+      .form-wrapper {
+        width: 100%;
+      }
+    }
+
+    .container-wrapper {
+      padding: 15px;
+      padding-top: 80px;
+      min-height: calc(100vh - 70px);
+    }
+  }
+}
+
+#app-layout {
+  ::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(131, 146, 165);
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(131, 146, 165);
+  }
+
+  .container-wrapper {
+    padding-top: 60px;
+    min-height: calc(100vh - 40px);
+  }
+
+  .navigation-vertical-wrapper {
+    position: fixed;
+    top: 60px;
+    height: calc(100% - 60px);
+    width: 240px;
+    overflow-y: scroll;
+
+    .ant-menu-inline.ant-menu-root .ant-menu-item {
+      margin: 0px;
+    }
+  }
+
+  @media only screen and (max-width: @screen-lg) {
+    .container-wrapper {
+      padding-top: 50px;
+      min-height: calc(100vh - 72px);
+    }
+  }
+}
+
+.extended-main-wrapper {
+
+  .main-content {
+    margin-left: 60px;
+    min-height: 100vh;
+  }
+
+  @media only screen and (max-width: @screen-lg) {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    .main-content {
+      margin-left: 0px;
+    }
+  }
+}
+
+.show-lg{
+  display: none;
+}
+
+.hide-lg{
+  display: block;
+}
+
+@media only screen and (min-width: @screen-lg) {
+  .show-lg{
+    display: block;
+  }
+  .hide-lg{
+    display: none;
+  }
+}
+

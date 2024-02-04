@@ -1,0 +1,53 @@
+.wui-summary-card {
+
+  .ant-card-body {
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+  }
+
+
+  .info-wrapper {
+    padding: 20px;
+
+    .title {
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 5px;
+      line-height: 1;
+    }
+
+    .value-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+
+      .value {
+        font-size: 26px;
+        font-weight: 500;
+        margin-right: 5px;
+      }
+
+      .info-value {
+        font-size: 12px;
+        color: rgb(131, 146, 165);
+      }
+
+      .percentage {
+
+        &.up {
+          color: #52c41a;
+        }
+
+        &.down {
+          color: #f5222d;
+        }
+      }
+    }
+  }
+
+  .chart-wrapper {
+    padding: 20px;
+    padding-top: 0px;
+  }
+}
